@@ -1,0 +1,5 @@
+name = input("Enter name: ")
+age = int(input("Enter age: "))
+print(f"Hello, {name}.")
+print("Welcome to CPE.")
+print(f"You're {age*360} days old.")
