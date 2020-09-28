@@ -1,0 +1,16 @@
+money = int(input())
+print("1000 => %d"%(money//1000))
+money%=1000
+print("500 => %d"%(money//500))
+money%=500
+print("100 => %d"%(money//100))
+money%=100
+print("50 => %d"%(money//50))
+money%=50
+print("20 => %d"%(money//20))
+money%=20
+print("10 => %d"%(money//10))
+money%=10
+print("5 => %d"%(money//5))
+money%=5
+print("1 => %d"%(money))
